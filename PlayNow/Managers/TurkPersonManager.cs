@@ -21,7 +21,7 @@ namespace PlayNow.Managers
         }
         public override void Save()
         {
-            MernisService mernisService = new MernisService();
+            MernisService mernisService = new MernisService();// HATA *************
             TurkPerson turkPerson = new TurkPerson
             {
                 Id = 1,
